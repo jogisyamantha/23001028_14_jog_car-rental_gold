@@ -4,12 +4,12 @@
 }
 
 h1 {
-    color: #000;
+    /* color: #000;
     font-family: Arial;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; /* 54px */
+    line-height: 150%; 54px */
 }
 
 p {
@@ -22,9 +22,14 @@ p {
 }
 
 .navbar {
+    /* background: #F1F3FF; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 24px 249px 0px 136px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
 }
 
 .n-logo {
@@ -51,20 +56,34 @@ p {
 }
 
 .hero-section {
+    position: relative;
+    top: 0px;
     display: flex;
-    justify-content: space-between;
-    height: 500px;
-    flex-shrink: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
     background: #F1F3FF;
-    gap: 25px;
-    
+    height: 500px;
+    width: 100%;
 }
 
 .hr-text {
+    /* margin-left: 136px; */
+    margin-bottom: 87px;
+    padding-right: 32px;
+}
+
+.hr-text h1{
     width: 568px;
-    height: 407px;
-    flex-shrink: 0;
-    margin: 136px;
+    color: #000;
+    font-family: Arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /*54px*/
+}
+
+.hr-text p {
+    width: 468px;
 }
 
 .hr-text button {
@@ -86,12 +105,11 @@ p {
 
 .hr-pic {
     width: 704px;
-    height: 243px;
+    height: 407px;
     flex-shrink: 0;
-    border-radius: 60px 0px 0px 0px;
-    background: var(--primary-dark-blue-04, #0D28A6);
     display: flex;
-    justify-content: flex-end;
+    align-items: self-end;
+    right: 0;
 }
 
 .hr-pic img {
@@ -100,6 +118,49 @@ p {
     flex-shrink: 0;
     display: flex;
     vertical-align: bottom;
-    transform: scaleX(-1);
+    position: absolute;
+}
+
+.car-background {
+    width: 704px;
+    height: 243px;
+    flex-shrink: 0;
+    border-radius: 60px 0px 0px 0px;
+    background: var(--primary-dark-blue-04, #0D28A6);
+    display: flex;
+    position: absolute;
+}
+
+
+.our-service {
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+}
+
+.os-pic {
+
+}
+
+.ellipse1 {
+    width: 133px;
+    height: 133px;
+    flex-shrink: 0;
+    fill: var(--primary-lime-green-03, #92D094);
+}
+
+.ellipse2 {
     
+}
+
+.ellipse3 {
+    
+}
+
+.ellipse4 {
+    border-radius: 360px;
+    background: var(--primary-dark-blue-04, #0D28A6);
+    width: 360px;
+    height: 360px;
+    flex-shrink: 0;
 }
