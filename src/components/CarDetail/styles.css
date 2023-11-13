@@ -1,0 +1,82 @@
+.cardetail {
+    /* position: absolute; */
+    top: 15%;
+    left: 50%;
+    transform: translate(0%, -10%);
+    display: flex;
+    justify-content: center;
+}
+
+
+.cardetail-container {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.cardetail-left {
+    width: 605px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--neutral-01, #FFF);
+
+    /* Shadow/Low */
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cardetail-left-item {
+    margin: 24px;
+}
+.cardetail-left-item ul {
+    margin-left: 19px;
+}
+
+.cardetail-left-item li {
+    color: var(--neutral-03, #8A8A8A);
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 175%; /* 24.5px */
+}
+
+.cardetail-right {
+    width: 405px;
+    height: 435px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--neutral-01, #FFF);
+
+    /* Shadow/Low */
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cardetail-right-item {
+    display: flex;
+    flex-direction: column;
+    margin: 26px 24px ;
+}
+
+.cardetail-right-item p {
+    color: var(--neutral-01, #000);
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+}
+
+.cardetail-right-item-total {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardetail-right img {
+    width: 270px;
+    height: auto;
+    flex-shrink: 0;
+    margin: 0px 40px 52px 50px ;
+}

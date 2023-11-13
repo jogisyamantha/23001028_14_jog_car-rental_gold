@@ -1,0 +1,36 @@
+.footer-container {
+    display: flex;
+    margin: 0px 136px;
+    justify-content: space-between;
+}
+
+.footer-container p {
+    margin-bottom: 16px;
+}
+
+.footer-container img {
+    margin-right: 16px;
+}
+
+.footer-copyr img {
+    width: 100px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.footer-list p {
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    text-decoration: inherit;
+}
+
+@media (max-width: 576px) {
+    .footer-container {
+        flex-direction: column;
+        margin: 0px 16px;
+    }
+}

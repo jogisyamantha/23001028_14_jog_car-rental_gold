@@ -1,0 +1,73 @@
+
+.ctabanner-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px 136px;
+}
+
+.ctabanner-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1168px;
+    height: 326px;
+    border-radius: 13px;
+    background: #0D28A6;
+}
+
+.ctabanner-group h4 {
+    color: var(--neutral-01, #FFF);
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 54px */
+    margin-bottom: 16px;
+}
+
+.ctabanner-group p {
+    width: 468px;
+    color: var(--neutral-01, #FFF);
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    margin-bottom: 52px;
+}
+
+.ctabanner-group button {
+    display: inline-flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    background: var(--primary-lime-green-04, #5CB85F);
+    color: var(--neutral-10, #FFF);
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    border: none;
+}
+
+@media (max-width: 576px) {
+    .ctabanner-container {
+        margin: 40px 16px;
+    }
+
+    .ctabanner-group {
+        height: 420px;
+        width: auto;
+        padding: 56px;
+    }
+
+    .ctabanner-group p {
+        width: auto;
+    }
+}

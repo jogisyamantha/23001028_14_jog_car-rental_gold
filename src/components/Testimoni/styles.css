@@ -1,0 +1,94 @@
+.container-testimoni {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-testimoni p {
+    padding-bottom: 40px;
+}
+
+.testimoni-item {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 32px;
+}
+
+.t-holder {
+    width: 619px;
+    height: 270px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F1F3FF;
+
+    /* Shadow/Low */
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.t-holder-in {
+    display: flex;
+    padding: 69px 32px 69px 46px;
+    align-items: center;
+    gap: 46px;
+
+}
+
+.t-holder-item p {
+    padding: 8px 0px;
+}
+
+.t-holder-in img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.holder-status {
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.t-holder-button {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.t-holder-button-1 {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    fill: #FFF;
+    border-radius: 50%;
+    border-width: 2px;
+}
+
+.t-holder-button-2 {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: none;
+    background-color: #5CB85F;
+}
+
+@media (max-width: 576px) {
+    .t-holder {
+        width: 100%;
+        height: auto;
+    }
+
+    .t-holder-in {
+        flex-direction: column;
+    }
+}

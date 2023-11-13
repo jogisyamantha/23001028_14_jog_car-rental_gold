@@ -1,0 +1,41 @@
+.faq-container {
+    margin: 100px 136px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-container h2 {
+    margin-bottom: 16px;
+}
+
+.faq-list select {
+    width: 668px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    padding: 0px 24px;
+}
+
+@media (max-width: 576px) {
+    .faq-container {
+        margin: 40px 16px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .faq-list select {
+        width: 328px;
+    }
+
+    .faq-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
